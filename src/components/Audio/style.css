@@ -1,0 +1,127 @@
+#sample-list, .label {
+	font-size: 0.8em;
+	font-weight: 550;
+	color: pink;
+	/*padding: 2em 5.7em;*/
+}
+#sample-list {
+	width: 320px;
+	text-align: left;
+	cursor: pointer;
+	margin: -1em auto;
+	/*padding-bottom: 2em;*/
+	display: block;
+	position: relative;	
+}
+
+audio {
+	/*padding-bottom: 2em;*/
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+select {
+	display: inline-block;
+	position: relative;
+	width: 5em;
+}
+
+.show {
+	display: block;
+}
+.hide {
+	display: none;
+}
+
+.text-hotpink {
+	color: hotpink;
+}
+.text-pink {
+	color: pink;
+}
+.text-white {
+	color: #fff !important;
+}
+.text-normal {
+	font-weight: normal;
+}
+.active {
+	color: #fb62af;
+}
+li {
+	line-height: 1.5em;
+}
+/*    li:active {
+    color: peachpuff;
+ }*/
+
+ /*h6 {
+ 	display: inline-block;
+ 	float: right;	
+ }*/
+ .clear {
+ 	clear: both;
+ }
+
+ #search-input {
+ 	margin-top: -5em;
+ }
+ form > label {
+ 	font-size:  0.8em;
+ }
+
+.label {
+	margin: 2em auto;
+	color: palegoldenrod;
+}
+
+.swatch {
+	/*height: 10px;
+	width: 10px;*/
+	padding: 0.5em;
+	display: inline-block;
+	margin-left: 2em;
+}
+
+.highlight-yellow {
+  background-color: yellow;
+}
+.highlight-orange {
+  background-color: #f9cb9c;
+}
+.highlight-green {
+  background-color: lightgreen;
+}
+.highlight-blue{
+  background-color: #80edff;
+}
+.highlight-pink{
+  background-color: pink;
+}
+.spacing {
+	padding-bottom: 1em;
+}
+#emoji-brush {
+	font-size: 1.1em;
+	font-weight: 900;
+}
+
+.fade {	
+  -webkit-animation: fadeout 1s linear forwards;
+  animation: fadeout 1s linear forwards;
+}
+@keyframes fadeout {
+  50% {
+    /*opacity: 1;*/
+    height: 2em;
+  }
+/*  95% {
+    opacity: 0;
+    height: 2em;
+  } */ 
+  100% {
+    /*display: none;*/
+    opacity: 0;
+    height: 0;
+  }
+}

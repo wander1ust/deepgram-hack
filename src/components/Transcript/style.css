@@ -1,0 +1,69 @@
+.transcript {
+    font-size: 0.8em;
+    line-height: 1.8em;
+    height: 800px;
+    width: 90%;
+    padding: 2em;
+    margin-top: -3.5em !important;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    font-family: Helvetica;
+    margin: 0 auto;	    
+    right: 8.5em;
+    display: block;	    
+    position: relative;  
+/*    background: url('https://wallpapercave.com/dwp2x/wp3758827.jpg') no-repeat center center fixed;	    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;   
+  background-size: 1000px 1000px;   
+    background-position: 50% 50%;   
+    opacity: 0.6;*/
+}	
+
+.scroll {
+	width: 180%;
+	height: 550px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-align: center;
+	padding: 20px;     	  	
+}
+
+.highlight {       
+  background-color: #ffefde; 
+  padding: 0.5em 0.3em;
+  /*padding-right: 1em;*/
+  /*padding-top: 1em;*/
+}
+/*.highlight-yellow {
+  background-color: yellow;
+}
+.highlight-orange {
+  background-color: #f9cb9c;
+}
+.highlight-green {
+  background-color: lightgreen;
+}
+.highlight-blue{
+  background-color: #80edff;
+}*/
+
+.normal {
+  background-color: #fff; 
+  padding: 0em;
+}
+
+#guide {
+  color: hotpink;
+  text-align: center;
+}
+#arrow-gif {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,25 @@
+.wrapper {	
+	font-color: #fff;
+    margin: 0 auto;
+    /*margin: -15em auto;*/
+    margin-top: -5em;	
+	padding-left: 25em;
+	/*float: right;*/
+	display: block;
+}
+
+.export-icon {
+	margin-left: 9em;
+	font-size: 2em;
+}
+.export-icon:hover:after {
+	content: 'Export Notes';
+    position:absolute;
+    top: 0;
+    right:-10px;
+    bottom:0;
+
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #303030;	
+}
